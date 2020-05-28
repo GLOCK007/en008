@@ -8,10 +8,10 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '!', case_insensitive=True)
+client = commands.Bot(command_prefix = 'en•', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
-devs=["536589241757728809","536589241757728809"]
+devs=["685045217040269315","685045217040269315"]
 
 
 
@@ -78,16 +78,16 @@ async def send(ctx, *, content: str):
 
 @client.command(pass_context=True, no_pm=True)
 async def dmall(ctx, *,content: str):
-    devu=["536589241757728809","536589241757728809"]
+    devu=["685045217040269315","685045217040269315"]
     if ctx.message.author.id in devu:
         for a in client.servers:
             for member in list(a.members):
                 try:
                     await client.send_message(member, content)
-                    await client.say("DM Sent To : {} ✅  ".format(member))
+                    await client.say("DM Sent To : {} 😊  ".format(member))
                 except:
                     print("can't")
-                    await client.say("DM can't Sent To : {} ❌ ".format(member))
+                    await client.say("DM can't Sent To : {} 😞 ".format(member))
 
 
 @client.event
@@ -96,8 +96,8 @@ async def on_ready():
     print('--------')
     print('--------')
     print('Started ')
-    print('Created by Tejas')
+    print('Created by Smiley')
 
     
-client.run("BOT TOKEN")                
+client.run("NzE1NjI2ODk3MTk0NzQ1OTA4.Xs_-Ow.FhYhTBlAbD_4hAM54DnRjJY7IX4")                
 
