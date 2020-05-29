@@ -8,10 +8,10 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '!', case_insensitive=True)
+client = commands.Bot(command_prefix = '•', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
-devs=["536589241757728809","536589241757728809"]
+devs=["685045217040269315","685045217040269315"]
 
 
 
@@ -99,5 +99,5 @@ async def on_ready():
     print('Created by Tejas')
 
     
-client.run("BOT TOKEN")                
+client.run("NzE1NjI2ODk3MTk0NzQ1OTA4.XtCw6g.uQmTkGXjvrVm1wR63kdGVQj5UGo")                
 
